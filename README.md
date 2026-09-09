@@ -38,6 +38,19 @@ semantic exit codes. Live evaluation reports are part of the repo.
 > The three form a V: `evalforge` audits the other two from the outside — there is no
 > hidden dependency between `alpha-agent` and `smart-contract-rag`.
 
+## Applied AI — industry bridge
+
+### 4. [pdm-agent](https://github.com/eLSeR17/pdm-agent) — predictive maintenance with anti-hallucination
+
+[![CI](https://github.com/eLSeR17/pdm-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/eLSeR17/pdm-agent/actions/workflows/ci.yml)
+
+ML + LLM pipeline on NASA C-MAPSS and UCI Steel Plates: RandomForest baselines, then a
+local LLM agent that interprets work orders and validates its own hypotheses with an
+anti-hallucination layer. Honest metrics, reproducible, no SOTA claims.
+
+Also see: [python-industrial-portfolio](https://github.com/eLSeR17/python-industrial-portfolio)
+— 8 industrial Python projects (QA, vibration, fatigue, process control).
+
 ## Stack
 
 Python · Docker · pytest · GitHub Actions · local LLMs (Ollama)
