@@ -48,6 +48,15 @@ ML + LLM pipeline on NASA C-MAPSS and UCI Steel Plates: RandomForest baselines, 
 local LLM agent that interprets work orders and validates its own hypotheses with an
 anti-hallucination layer. Honest metrics, reproducible, no SOTA claims.
 
+### 5. [plc-ai-agent](https://github.com/eLSeR17/plc-ai-agent) — AI for PLC diagnostics & SCL code generation
+
+[![CI](https://github.com/eLSeR17/plc-ai-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/eLSeR17/plc-ai-agent/actions/workflows/ci.yml)
+
+An OPC UA + MCP + local-LLM agent that reads a real S7-1500 (or a bundled simulator)
+and drafts IEC 61131-3 SCL code through deterministic templates. The LLM picks the
+template and parameters — it never writes code freely; a validator and a human review
+gate stand between the agent and the controller. 100% local, no cloud, no API keys.
+
 Also see: [python-industrial-portfolio](https://github.com/eLSeR17/python-industrial-portfolio)
 — 8 industrial Python projects (QA, vibration, fatigue, process control).
 
