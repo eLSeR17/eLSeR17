@@ -62,7 +62,8 @@ Also see: [python-industrial-portfolio](https://github.com/eLSeR17/python-indust
 
 ## Stack
 
-Python · Docker · pytest · GitHub Actions · local LLMs (Ollama)
+Python · Docker · pytest · GitHub Actions · local LLMs (Ollama) · RAG (ChromaDB, hybrid retrieval) ·
+evals (LLM-as-judge, regression guard) · MCP · tool calling · observability
 
 ## Contact
 
