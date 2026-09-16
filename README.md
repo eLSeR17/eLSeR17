@@ -39,9 +39,21 @@ semantic exit codes. Live evaluation reports are part of the repo.
 > The three form a V: `evalforge` audits the other two from the outside — there is no
 > hidden dependency between `alpha-agent` and `smart-contract-rag`.
 
+
+### 4. [quantum-rag](https://github.com/eLSeR17/quantum-rag) — RAG over 240+ quantum computing papers, with measurable quality
+
+[![CI](https://github.com/eLSeR17/quantum-rag/actions/workflows/ci.yml/badge.svg)](https://github.com/eLSeR17/quantum-rag/actions/workflows/ci.yml)
+
+Retrieval-augmented generation over 240+ arXiv papers (quantum error correction & quantum
+machine learning), with hybrid BM25 + dense retrieval and evidence-first answers whose
+grounding is verified (never claimed without supporting chunks). Evaluated with its own
+12-case golden set: recall@8 **1.000**, MRR 0.674, faithfulness 0.62. Runs on CPU only,
+no paid APIs, and ships a CI gate with 4 jobs (tests on 3.11 + 3.12, lint, and a security
+job that audits every dependency and scans for leaked secrets).
+
 ## Applied AI — industry bridge
 
-### 4. [pdm-agent](https://github.com/eLSeR17/pdm-agent) — predictive maintenance with anti-hallucination
+### 5. [pdm-agent](https://github.com/eLSeR17/pdm-agent) — predictive maintenance with anti-hallucination
 
 [![CI](https://github.com/eLSeR17/pdm-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/eLSeR17/pdm-agent/actions/workflows/ci.yml)
 
@@ -49,7 +61,7 @@ ML + LLM pipeline on NASA C-MAPSS and UCI Steel Plates: RandomForest baselines, 
 local LLM agent that interprets work orders and validates its own hypotheses with an
 anti-hallucination layer. Honest metrics, reproducible, no SOTA claims.
 
-### 5. [plc-ai-agent](https://github.com/eLSeR17/plc-ai-agent) — AI for PLC diagnostics & SCL code generation
+### 6. [plc-ai-agent](https://github.com/eLSeR17/plc-ai-agent) — AI for PLC diagnostics & SCL code generation
 
 [![CI](https://github.com/eLSeR17/plc-ai-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/eLSeR17/plc-ai-agent/actions/workflows/ci.yml)
 
