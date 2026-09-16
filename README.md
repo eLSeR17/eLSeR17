@@ -26,6 +26,7 @@ built in.
 A production RAG system over real smart contract audits, with its own eval pipeline —
 golden dataset, LLM-as-judge and a regression guard. Includes a documented experiment
 on semantic grounding.
+**Live demo**: [ask the audit corpus](https://smart-contract-rag-3wnnafjfnjku54baybdec2.streamlit.app/) — grounded, cited answers over 10 real Trail of Bits reports, deployed on Streamlit Community Cloud.
 
 ### 3. [evalforge](https://github.com/eLSeR17/evalforge) — the QA layer
 
