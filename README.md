@@ -51,6 +51,9 @@ grounding is verified (never claimed without supporting chunks). Evaluated with 
 no paid APIs, and ships a CI gate with 4 jobs (tests on 3.11 + 3.12, lint, and a security
 job that audits every dependency and scans for leaked secrets).
 
+**Live demo**: [ask the quantum literature corpus](https://quantum-rag.streamlit.app/) —
+240+ arXiv papers, grounded and cited answers, deployed on Streamlit Community Cloud.
+
 ## Applied AI — industry bridge
 
 ### 5. [pdm-agent](https://github.com/eLSeR17/pdm-agent) — predictive maintenance with anti-hallucination
