@@ -1,10 +1,16 @@
 # Hi, I'm Sergi 👋
 
-**AI Engineer — I build agents and RAG systems with an evaluation-first mindset · Web3 Security Researcher**
+**AI Engineer — evaluation-first agents & RAG · Web3 Security Researcher · Industrial Engineer (Electrical & Automation)**
 
-I build real LLM systems: tool-calling agents and RAG pipelines over specialized domains,
-plus the evaluation tooling to measure them independently. Everything I publish is
-local-first (local LLMs, no paid APIs), CI-verified and reproducible.
+I build **real LLM systems**: tool-calling agents and RAG pipelines over specialized
+domains, plus the evaluation tooling to measure them independently — measurable
+quality, not vibes. I'm also a **Web3 smart-contract security researcher** (Solidity
+auditing, top-3 in a public DeFi audit). And I bring an **industrial engineering
+background** — Electrical & Automation, with PLC/SCADA commissioning on a real
+production line (Mercedes-Benz) — so the systems I build are grounded in plant-floor
+reality: robustness, cost control and honest validation.
+
+Everything I publish is local-first (local LLMs, no paid APIs), CI-verified and reproducible.
 
 Based in Vitoria-Gasteiz, Spain.
 
@@ -54,7 +60,29 @@ job that audits every dependency and scans for leaked secrets).
 **Live demo**: [ask the quantum literature corpus](https://quantum-rag.streamlit.app/) —
 240+ arXiv papers, grounded and cited answers, deployed on Streamlit Community Cloud.
 
+## Web3 security — smart-contract auditing
+
+Solidity security auditing with **proven results in public contests and paid audits**:
+
+- 🥉 **3rd place** — **Boost Core Incentive Protocol** — public Sherlock audit
+  (DeFi): permissionless growth-engine risk, economic-attacker modeling and flow
+  analysis
+- 💰 **$2K prize** — **Chainlink Payment Abstraction** — audit of the
+  payment-abstraction component at the core of Chainlink's billing system
+- Independent researcher, 2024 — present
+
+The auditor mindset transfers directly to AI systems: threat modeling, economic
+flow analysis and validating findings against real code are the same disciplines
+behind my evaluation-driven agent pipeline —
+[architecture writeups here](https://github.com/eLSeR17/ai-agent-systems-portfolio).
+
 ## Applied AI — industry bridge
+
+> Industrial engineer (Electrical & Automation) with hands-on commissioning on the
+> Mercedes-Benz (Vitoria) production line — Siemens Step7, TIA Portal, WinCC — and
+> 4 years of engineering at Daisalux (emergency lighting). The projects below apply
+> plant-floor discipline (robustness, process safety, silent-failure prevention)
+> to modern AI stacks.
 
 ### 5. [pdm-agent](https://github.com/eLSeR17/pdm-agent) — predictive maintenance with anti-hallucination
 
