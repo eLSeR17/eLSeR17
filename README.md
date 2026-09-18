@@ -73,13 +73,25 @@ and drafts IEC 61131-3 SCL code through deterministic templates. The LLM picks t
 template and parameters — it never writes code freely; a validator and a human review
 gate stand between the agent and the controller. 100% local, no cloud, no API keys.
 
+### 7. [pcb-ai-agent](https://github.com/eLSeR17/pcb-ai-agent) — AI for KiCad PCB design & firmware generation
+
+[![CI](https://github.com/eLSeR17/pcb-ai-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/eLSeR17/pcb-ai-agent/actions/workflows/ci.yml)
+
+A fully local agent for KiCad designs: it parses netlists and schematics, audits
+boards with evidence-grounded rules (every finding cites the exact ref — no LLM
+guesses) and cross-checks netlist vs schematic so parts cannot silently diverge.
+It also generates STM32 HAL / Arduino init firmware from deterministic templates,
+compiled against 100%-own HAL stubs with real gcc/g++ in CI — generated code is
+proven to compile before any human review. 493 tests, CI green (3.11, 3.12,
+security + compile gate). 100% local, no cloud, no API keys.
+
 Also see: [python-industrial-portfolio](https://github.com/eLSeR17/python-industrial-portfolio)
 — 8 industrial Python projects (QA, vibration, fatigue, process control).
 
 ## Stack
 
 Python · Docker · pytest · GitHub Actions · local LLMs (Ollama) · RAG (ChromaDB, hybrid retrieval) ·
-evals (LLM-as-judge, regression guard) · MCP · tool calling · observability
+evals (LLM-as-judge, regression guard) · MCP · tool calling · observability · EDA (KiCad) · firmware (gcc/g++ stubs)
 
 ## Contact
 
