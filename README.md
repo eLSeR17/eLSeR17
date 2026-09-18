@@ -116,10 +116,24 @@ security + compile gate). 100% local, no cloud, no API keys.
 Also see: [python-industrial-portfolio](https://github.com/eLSeR17/python-industrial-portfolio)
 — 8 industrial Python projects (QA, vibration, fatigue, process control).
 
+## Computer vision & optimization
+
+### 8. [sudoku-vision-solver](https://github.com/eLSeR17/sudoku-vision-solver) — solve a Sudoku from a single photo
+
+[![CI](https://github.com/eLSeR17/sudoku-vision-solver/actions/workflows/ci.yml/badge.svg)](https://github.com/eLSeR17/sudoku-vision-solver/actions/workflows/ci.yml)
+
+Take a photo of an unsolved Sudoku and get the same photo back with the solution
+overlaid in green. OpenCV grid detection with homography warp, an MNIST-trained MLP
+(784→256→10) for digit recognition, and a pure-Python optimal solver (bitmasks +
+MRV + forward checking, no dependencies). A consistency-repair pass re-reads
+misread digits under rotation — verified on a rotated photo of Arto Inkala's
+"world's hardest Sudoku", returning the exact published solution. 62 tests,
+CI green (3.11, 3.12, security).
+
 ## Stack
 
 Python · Docker · pytest · GitHub Actions · local LLMs (Ollama) · RAG (ChromaDB, hybrid retrieval) ·
-evals (LLM-as-judge, regression guard) · MCP · tool calling · observability · EDA (KiCad) · firmware (gcc/g++ stubs)
+evals (LLM-as-judge, regression guard) · MCP · tool calling · observability · computer vision (OpenCV) · ML (scikit-learn) · EDA (KiCad) · firmware (gcc/g++ stubs)
 
 ## Contact
 
